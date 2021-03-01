@@ -19,6 +19,13 @@ Do the following:
 */
 
 
+var votingAge = 18; 
+ if( votingAge >= 18)
+ console.log("true")
+
+
+
+
 
 /*
 Task 1b - Values
@@ -31,7 +38,10 @@ Do the following:
    HINT: no function required
 */
 
-
+var pushUps = 12;
+var sitUps = 10;
+if(pushUps >= 12) console.log (10)
+if(sitUps >= 10) console.log(12)
 
 
 
@@ -46,7 +56,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
+var rNumber = "1999";
+parseInt(rNumber); 
+console.log(rNumber)
 
 
 /*
@@ -58,9 +70,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b ){
+  return a*b;
+
   }
+  console.log(multiply(1,2))
 
 
 
@@ -74,9 +88,13 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
-}
+function dogYears(a,b){
+{
+  return a * b;
+  
+}}
+
+console.log(dogYears(5,7))
 
 
 
@@ -107,11 +125,12 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog(weight, years){
+  return weight*years;
+  
   }
 
-
+console.log(hungryDog(5,.16 ))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -134,10 +153,25 @@ Use the game function below to do the following:
   HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
 
-function game(user, computer){
-    /*add your code here*/
+function game(user, computer){ Math.round(Math.random)
+   if (user >=0 )
+   return
 }
-  
+
+
+console.log(game())
+/*var rockPaperSizor = Math.round(Math.random(2));
+if (rockPaperSizor === 0){
+  console.log("rock")
+}
+else if (rockPaperSizor === 1){ 
+  console.log("paper")
+}
+else if (rockPaperSizor === 1){ 
+  console.log("sizor")
+
+}
+console.log(rock, paper, sizor)*/
   
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -151,10 +185,11 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
+function miles(a , b){
+  return a * b
     /*add your code here*/
   }
-
+console.log(miles(6,1.7))
 
 
 //Task 5b - Feet to CM
@@ -165,8 +200,12 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
+function feet(a,b){
+  return a * b
     /*add your code here*/
+  }
+console.log(feet(6,30.48))
+  
   }
  
 
